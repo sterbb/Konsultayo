@@ -1,0 +1,25 @@
+Dental Service Information
+Dentist: Dr.Paul Brian S. Mendez
+Clinic: City Smiles Clinic
+Contact Number: 0908 894 3569
+Location: Central City Walk, Robinsons Place, Bacolod City, Negros Occidental
+Service: Restorative Dentistry
+Estimated Price: Php 3,500 to Php 7,500
+
+
+
+Patient Information
+Name: asdfasdf, asdfasdfasdf asdfasdf
+Age: 12
+Date of Birth:2021-04-06
+Religion: asdf
+Citizenship: adsfasdf
+Email: N/A
+Civil Status: Married
+Gender: Male
+Contact Number: 12
+
+
+
+
+Created 2021-04-14  22:50:35.162559600

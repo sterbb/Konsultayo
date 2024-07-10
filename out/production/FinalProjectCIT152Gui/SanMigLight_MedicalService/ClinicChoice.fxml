@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SanMigLight_MedicalService.ClinicChoice">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="88.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" focusTraversable="false" prefHeight="150.0" prefWidth="95.0" style="-fx-background-color: gray; -fx-border-width: 0 0 2 0; -fx-border-color: white;" text="1st" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="60.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" focusTraversable="false" layoutY="150.0" prefHeight="150.0" prefWidth="95.0" style="-fx-background-color: #68b0ab; -fx-border-color: white; -fx-border-width: 0 0 2 0;" text="2nd" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="51.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" focusTraversable="false" layoutY="300.0" prefHeight="150.0" prefWidth="95.0" style="-fx-background-color: gray; -fx-border-color: white; -fx-border-width: 0 0 2 0;" text="3rd" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="57.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" focusTraversable="false" layoutY="450.0" prefHeight="150.0" prefWidth="95.0" style="-fx-background-color: gray;" text="4th" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="61.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="687.0" style="-fx-background-color: #525252;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="iconClinic" fitHeight="212.0" fitWidth="201.0" layoutX="254.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/logo.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </ImageView>
+            <Button fx:id="btnBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" prefHeight="43.0" prefWidth="88.0" style="-fx-background-color: gray; -fx-background-radius: 50;" stylesheets="@style.css" text="BACK" textFill="WHITE">
+               <font>
+                  <Font name="The Bold Font" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnClinic1" alignment="CENTER" contentDisplay="TOP" graphicTextGap="0.0" layoutX="27.0" layoutY="273.0" mnemonicParsing="false" onAction="#selectClinic1" prefHeight="217.0" prefWidth="212.0" style="-fx-background-color: #68b0ab; -fx-border-width: 5; -fx-background-radius: 30;" stylesheets="@style.css" text="Clinic 1" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnClinic2" alignment="CENTER" contentDisplay="TOP" graphicTextGap="0.0" layoutX="247.0" layoutY="273.0" mnemonicParsing="false" onAction="#selectClinic2" prefHeight="217.0" prefWidth="212.0" style="-fx-background-color: #68b0ab; -fx-background-radius: 30;" stylesheets="@style.css" text="Clinic 2" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnClinic3" alignment="CENTER" contentDisplay="TOP" graphicTextGap="0.0" layoutX="470.0" layoutY="273.0" mnemonicParsing="false" onAction="#selectClinic3" prefHeight="217.0" prefWidth="212.0" style="-fx-background-color: #68b0ab; -fx-background-radius: 30;" stylesheets="@style.css" text="Clinic 3" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Label fx:id="txtTitle" layoutX="141.0" layoutY="218.0" text="Available Dental Health Clinics" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnProceed2" contentDisplay="TOP" disable="true" layoutX="272.0" layoutY="514.0" mnemonicParsing="false" onAction="#Proceed" prefHeight="59.0" prefWidth="161.0" style="-fx-background-color: #3e9157; -fx-background-radius: 50;" stylesheets="@style.css" text="Proceed" textFill="WHITE">
+               <font>
+                  <Font name="The Bold Font" size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

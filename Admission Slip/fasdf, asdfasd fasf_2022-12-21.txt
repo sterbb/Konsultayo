@@ -1,0 +1,25 @@
+Dental Service Information
+Dentist: Dr. Regina Lao-Hidalgo
+Clinic: Smile Avenue Dental Clinic
+Contact Number: (034) 435 2548
+Location: Burgos St. Cor San Juan St., Bacolod, 6100
+Service: Dental Implants
+Estimated Price: Php 40,000 to Php 95,000
+
+
+
+Patient Information
+Name: fasdf, asdfasd fasf
+Age: 1
+Date of Birth:2022-12-21
+Religion: asd
+Citizenship: asd
+Email: N/A
+Civil Status: Married
+Gender: Female
+Contact Number: 2
+
+
+
+
+Created 2022-12-07  08:12:03.598046200
